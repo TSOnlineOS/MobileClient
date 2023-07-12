@@ -1,0 +1,54 @@
+.class public final Lcom/google/android/gms/internal/firebase-auth-api/zzpn;
+.super Lcom/google/android/gms/internal/firebase-auth-api/zzagg;
+.source "com.google.firebase:firebase-auth@@22.0.0"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/firebase-auth-api/zzahq;
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-static {}, Lcom/google/android/gms/internal/firebase-auth-api/zzpo;->zzc()Lcom/google/android/gms/internal/firebase-auth-api/zzpo;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/firebase-auth-api/zzagg;-><init>(Lcom/google/android/gms/internal/firebase-auth-api/zzagk;)V
+
+    return-void
+.end method
+
+.method synthetic constructor <init>(Lcom/google/android/gms/internal/firebase-auth-api/zzpm;)V
+    .locals 0
+
+    .line 2
+    invoke-static {}, Lcom/google/android/gms/internal/firebase-auth-api/zzpo;->zzc()Lcom/google/android/gms/internal/firebase-auth-api/zzpo;
+
+    move-result-object p1
+
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/firebase-auth-api/zzagg;-><init>(Lcom/google/android/gms/internal/firebase-auth-api/zzagk;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final zza(I)Lcom/google/android/gms/internal/firebase-auth-api/zzpn;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase-auth-api/zzagg;->zzm()V
+
+    iget-object p1, p0, Lcom/google/android/gms/internal/firebase-auth-api/zzpn;->zza:Lcom/google/android/gms/internal/firebase-auth-api/zzagk;
+
+    .line 2
+    check-cast p1, Lcom/google/android/gms/internal/firebase-auth-api/zzpo;
+
+    const/16 v0, 0x10
+
+    invoke-static {p1, v0}, Lcom/google/android/gms/internal/firebase-auth-api/zzpo;->zze(Lcom/google/android/gms/internal/firebase-auth-api/zzpo;I)V
+
+    return-object p0
+.end method
